@@ -65,3 +65,7 @@ node_modules
 .DS_Store
 .env
 
+
+# Never commit env files
+.env.*
+!.env.example
